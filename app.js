@@ -11,11 +11,10 @@ function splitDouble(string){
         tempString=""
     } 
  }
-//Pushes last bit of the string if double letter has been found
+//Pushes last bit of the string, if double letter has been found
  if(splitStringArray.length!=0){splitStringArray.push(tempString)}
  console.log(splitStringArray)
 
 }
 
 splitDouble("letter")
-
